@@ -1,13 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 95%;
+}
+
 header {
-  border: 1px solid black;
+  width: 100%;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.5;
   padding: 0.8rem;
 
   display: flex;
   flex-direction: row;
   justify-content: start;
   gap: 2rem;
-  align-self: baseline;
-  align-content: center;
+}
+
+body {
+  background-color: rgb(201, 57, 57);
 }
